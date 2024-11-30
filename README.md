@@ -9,8 +9,4 @@ This is a package that gives a very simple visual UI for managing roles/permissi
 3. Run `php artisan vendor:publish --provider="Mwaqaskhan925\LaravelPermissionEditor\PermissionEditorServiceProvider"` to publish the Assets and Config
 4. Launch `/permission-editor/roles` in your browser
 
-How it looks visually:
-
-![Laravel Permission Editor](https://laraveldaily.com/uploads/2023/01/laravel-permission-editor-view.png)
-
 **Notice**: you may want to secure the routes by adding extra middleware like `auth`, you can do it in the published `config/permission-editor.php` file.
