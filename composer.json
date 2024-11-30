@@ -1,0 +1,27 @@
+{
+    "name": "mwaqaskhan925/laravel-permission-editor",
+    "description": "Visual UI for managing Roles/Permissions for Spatie Laravel Permission package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mwaqaskhan925\\LaravelPermissionEditor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mwaqaskhan925\\LaravelPermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Waqas",
+            "email": "mwaqaskhan925@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/laravel-permission": "^6.0"
+    }
+}
