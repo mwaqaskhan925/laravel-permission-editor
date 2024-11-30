@@ -23,5 +23,7 @@
     "minimum-stability": "dev",
     "require": {
         "spatie/laravel-permission": "^6.0"
-    }
+    },
+
+    "version": "0.0.1"
 }
